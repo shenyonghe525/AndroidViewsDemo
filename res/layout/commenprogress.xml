@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- merge被include导入时顶节点会被自动忽略掉 -->
+<!-- 场景一:当根节点为framelayout,且不包含background或者pading属性设置时，可以用merge代替 -->
+<!-- 场景二:某布局作为子布局被其他布局include的时候，使用merge作为子布局的顶点，这样被引入时定节点会自动被忽略 -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</merge>

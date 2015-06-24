@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/dy_frament"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rabtn_static"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="@string/fragment_static"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rabtn_dynamic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="@string/fragment_dy"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rabtn_life"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="@string/fragment_life"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rabtn_communicate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="@string/fragment_communicate"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+</RelativeLayout>

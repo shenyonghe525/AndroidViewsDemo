@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <!-- 静态加载必须制定frament的id或者tag来唯一标示 -->
+    <fragment
+        android:id="@+id/frament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:name="com.syh.androidviews.fragment.MyFragmentStatic"/>
+
+</LinearLayout>

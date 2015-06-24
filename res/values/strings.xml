@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Views</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_id">id</string>
+    <string name="tv_name">姓名：</string>
+    <string name="tv_number">电话：</string>
+    <string name="progressbardialog">显示进度条对话框</string>
+    <string name="frament1_tv">Come from frament1!</string>
+    <string name="fragment_static">静态加载</string>
+    <string name="fragment_dy">动态加载</string>
+    <string name="fragment_life">生命周期</string>
+    <string name="fragment_communicate">传值通信</string>
+    <string name="show_stub">显示隐藏内容</string>
+
+</resources>
